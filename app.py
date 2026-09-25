@@ -11,7 +11,7 @@ from fastapi.templating import Jinja2Templates
 from pypdf import PdfReader
 import pdfplumber
 from dotenv import load_dotenv
-from google import genai
+import google.generativeai as genai
 
 load_dotenv()
 
